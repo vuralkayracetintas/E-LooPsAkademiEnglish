@@ -38,7 +38,7 @@ class DenemeButton extends StatelessWidget {
               width: 150,
             ),
             Text(
-              'Online Test - Deneme\n-WEB-',
+              'Online TYT-AYT Denemeler',
               style: TextStyle(
                 color: Colors.deepPurple,
                 fontSize: 16,

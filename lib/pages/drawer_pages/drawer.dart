@@ -55,33 +55,34 @@ class _HomeDrawerPageState extends State<HomeDrawerPage> {
               launched = launchInBrowser(egitmenler);
             },
           ),
-          ListTile(
-            title: const Text('Bizi Davet Edin'),
-            onTap: () {
-              launched = launchInBrowser(bizidavet);
-            },
-          ),
+          // ListTile(
+          //   title: const Text('Bizi Davet Edin'),
+          //   onTap: () {
+          //     launched = launchInBrowser(bizidavet);
+          //   },
+          // ),
           ListTile(
             title: const Text('Instagram'),
             onTap: () {
               launched = launchInBrowser(instagram);
             },
           ),
-          ListTile(
-            title: const Text('Discord'),
-            onTap: () {
-              launched = launchInBrowser(dc);
-            },
-          ),
+          // ListTile(
+          //   title: const Text('Discord'),
+          //   onTap: () {
+          //     launched = launchInBrowser(dc);
+          //   },
+          // ),
           ListTile(
             title: const Text('İletişim'),
             onTap: () {
               launched = launchInBrowser(iletisim);
             },
           ),
+
           ListTile(
             title: const Text(
-              'İngilizce YDT',
+              'Ingilizce YDT',
               style: TextStyle(
                 color: Colors.deepPurple,
                 fontSize: 18,

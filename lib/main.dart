@@ -14,6 +14,7 @@ Future<void> main() async {
       FirebaseNotificationService.backgroundMessage);
   LocalNotificationServices.initialize();
   MobileAds.instance.initialize();
+
   await Firebase.initializeApp();
   runApp(const MyApp());
 }
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
             elevation: 0.0,
             centerTitle: true,
           ),
-          primarySwatch: Colors.yellow,
+          primarySwatch: Colors.blue,
         ),
         home: const HomePage());
   }

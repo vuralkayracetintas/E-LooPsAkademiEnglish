@@ -33,7 +33,7 @@ class FirebaseNotificationService {
     );
     settingNotification();
 
-    FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+    FirebaseMessaging.onMessage.listen((RemoteMessage message) async {
       // print('Gelen bildirim basligi ${message.notification?.title}');
       // print('message title ${message.notification?.body}');
       // LocalNotificationServices.createNotification(message);
@@ -53,6 +53,7 @@ class FirebaseNotificationService {
 
   static Future<void> backgroundMessage(RemoteMessage message) async {
     await Firebase.initializeApp();
+
     print('handling background message ${message.messageId}');
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ing_app_1502/pages/decoration_pages/colors.dart';
 
 class HomeTabImage extends StatelessWidget {
   const HomeTabImage({
@@ -19,53 +20,96 @@ class HomeTabImage extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Yıllık Eğitim Maliyetin',
+                'Okul Eğitimi Odaklı ',
                 style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                     fontWeight: FontWeight.w800,
-                    color: Colors.deepPurple,
+                    color: kDeepPurple,
                     fontSize: 20),
               ),
               Row(
-                children: const [
+                children: [
                   Text(
-                    '2.000 ₺ ',
-                    style: TextStyle(
-                      fontSize: 35,
-                      fontWeight: FontWeight.w900,
-                      color: Colors.red,
+                    'Video',
+                    style: Theme.of(context).textTheme.headlineMedium!.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: kRedColor,
+                        fontSize: 20),
+                  ),
+                  Text(
+                    ' İçerik Platformu',
+                    style: Theme.of(context).textTheme.headlineMedium!.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: kDeepPurple,
+                        fontSize: 20),
+                  ),
+                ],
+              ),
+              Divider()
+              // Text(
+              //   'Yıllık Eğitim Maliyetin',
+              //   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
+              //       fontWeight: FontWeight.w800,
+              //       color: kDeepPurple,
+              //       fontSize: 20),
+              // ),
+              // Row(
+              //   children: const [
+              //     Text(
+              //       '2.000 ₺ ',
+              //       style: TextStyle(
+              //         fontSize: 35,
+              //         fontWeight: FontWeight.w900,
+              //         color: Colors.red,
+              //       ),
+              //     ),
+              //     Text(
+              //       'Olsun',
+              //       style: TextStyle(
+              //           fontSize: 20,
+              //           fontWeight: FontWeight.w900,
+              //           color: kDeepPurple),
+              //     )
+              //   ],
+              // ),
+              // const SizedBox(height: 10),
+              // Row(
+              //   //mainAxisAlignment: MainAxisAlignment.center,
+              //   children: const [
+              //     Expanded(
+              //       child: Divider(),
+              //     ),
+              //     Text('VE'),
+              //     Expanded(child: Divider())
+              //   ],
+              // ),
+              // const SizedBox(height: 30),
+              ,
+              SizedBox(height: 55),
+              Text(
+                'Dilediğin Eğitim Kurumundan \nDilediğin Eğitime Ulaş',
+                style: Theme.of(context).textTheme.headlineMedium!.copyWith(
+                    fontWeight: FontWeight.w800,
+                    color: kDeepPurple,
+                    fontSize: 20),
+              ),
+              Column(
+                children: <Widget>[
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: Container(
+                      child: Text(
+                        "#premiumhisset",
+                        style: TextStyle(
+                          color: Colors.grey,
+                        ),
+                      ),
                     ),
                   ),
-                  Text(
-                    'Olsun',
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.deepPurple),
-                  )
                 ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                //mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Expanded(
-                    child: Divider(),
-                  ),
-                  Text('VE'),
-                  Expanded(child: Divider())
-                ],
-              ),
-              const SizedBox(height: 30),
-              Text(
-                'Dilediğin Eğitim Kurumundan \n Dilediğin Eğitime Ulaş',
-                style: Theme.of(context).textTheme.headlineMedium!.copyWith(
-                    fontWeight: FontWeight.w800,
-                    color: Colors.deepPurple,
-                    fontSize: 20),
               )
             ],
           ),
