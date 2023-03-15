@@ -73,12 +73,12 @@ class _HomeDrawerPageState extends State<HomeDrawerPage> {
           //     launched = launchInBrowser(dc);
           //   },
           // ),
-          ListTile(
-            title: const Text('İletişim'),
-            onTap: () {
-              launched = launchInBrowser(iletisim);
-            },
-          ),
+          // ListTile(
+          //   title: const Text('İletişim'),
+          //   onTap: () {
+          //     launched = launchInBrowser(iletisim);
+          //   },
+          // ),
 
           ListTile(
             title: const Text(

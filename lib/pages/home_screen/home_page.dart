@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
           },
           onAdFailedToLoad: (ad, error) {
             ad.dispose();
-            print('reklam yuklenemedi ${error}');
+            print('banner reklam yuklenemedi ${error}');
           },
         ),
         request: const AdRequest());
