@@ -88,7 +88,10 @@ class _QuizMainPageState extends State<QuizMainPage> {
           children: [
             Column(
               children: const [
-                Image(image: AssetImage('assets/images/ogrenci.png')),
+                Align(
+                    alignment: Alignment.centerRight,
+                    child:
+                        Image(image: AssetImage('assets/images/ogrenci.png'))),
               ],
             ),
             Padding(

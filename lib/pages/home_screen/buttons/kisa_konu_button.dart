@@ -34,10 +34,12 @@ class KisaKonuButton extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: const [
-            Image(
-              image: AssetImage("assets/gorsel/abcdea.png"),
-              height: 100,
-              width: 150,
+            Align(
+              child: Image(
+                image: AssetImage("assets/gorsel/abcdea.png"),
+                height: 100,
+                width: 150,
+              ),
             ),
             Text(
               'Kısa Konular',

@@ -13,10 +13,13 @@ class HomeTabImage extends StatelessWidget {
     final double screenWidth = screenInfo.size.width;
     return Stack(
       children: [
-        const Image(
-            //height: screenHeight * 0.3,
-            //width: screenWidth,
-            image: AssetImage('assets/images/ogrenci1.png')),
+        Align(
+          alignment: Alignment.centerRight,
+          child: const Image(
+              //height: screenHeight * 0.3,
+              //width: screenWidth,
+              image: AssetImage('assets/images/ogrenci1.png')),
+        ),
         Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
