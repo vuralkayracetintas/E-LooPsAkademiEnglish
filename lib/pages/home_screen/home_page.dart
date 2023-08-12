@@ -98,7 +98,6 @@ class _HomePageState extends State<HomePage> {
   @override
   void dispose() {
     super.dispose();
-
     bottomBannerAd?.dispose();
     interstitialAd?.dispose();
   }
