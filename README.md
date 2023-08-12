@@ -1,7 +1,7 @@
 ## English YDT
 # E-LooPsAkademi
 
-<img src="screenshots/biyo.png" alt="Uygulama Logo" width="300" />
+<img src="screenshots/ingLogo.png" alt="Uygulama Logo" width="300" />
 
 
 ## Uygulama İndirme Linkleri
