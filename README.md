@@ -23,10 +23,6 @@ Uygulamayı indirmek için aşağıdaki linklere tıklayabilirsiniz:
 - Önemli etkinlikler ve güncellemeler hakkında bildirimler ile güncel kalın.
 
 
-## Bildirimler
-
-Uygulama, önemli etkinlikler, dil öğrenme ipuçları ve güncellemeler hakkında bildirimler gönderebilir. Bildirimleri alabilmek için lütfen uygulama ayarlarında bildirim izinlerini etkinleştirin.
-
 <div style="display: flex; justify-content: center;">
   <div style="display: flex; flex-direction: column; margin-right: 10px;">
     <img src="screenshots/1.png" alt="Resim 1" width="300" />
@@ -41,5 +37,4 @@ Uygulama, önemli etkinlikler, dil öğrenme ipuçları ve güncellemeler hakkı
     <img src="screenshots/6.png" alt="Resim 6" width="300" />
   </div>
 </div>
-
 
